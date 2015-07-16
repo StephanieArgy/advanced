@@ -106,3 +106,40 @@ video {
   margin: 0 auto;
   display: block;
   max-width: 90%; }
+
+@keyframes backgroundChange {
+  0% {
+    background: 003300; }
+  20% {
+    background: #000066; }
+  40% {
+    background: #3D007A; }
+  60% {
+    background: #990000; }
+  80% {
+    background: #CC3300; }
+  100% {
+    background: 003300; } }
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+#CSSAnimations {
+  animation-name: backgroundChange;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+#spinningSquare {
+  animation-name: infinite-spinning;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background: #777;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: auto; }
