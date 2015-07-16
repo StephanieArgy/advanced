@@ -99,6 +99,7 @@ header {
 
 #backgroundImage {
   background-image: url(../img/pluto.jpg);
+  background-position: right;
   color: white;
   text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px; }
 
