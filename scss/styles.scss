@@ -2,7 +2,11 @@ body {
   background-color: #eee;
   color: #222;
   font-family: sans-serif;
+  font-size: 1.2rem;
   margin: 0;
+  a {
+    color: white;
+  }
 }
 
 header {
@@ -61,6 +65,8 @@ header {
   font-variant: small-caps;
 }
 
+// SPECIFIC CARDS
+
 // Hover Card
 #hoverShadowDisplace:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,.6);
@@ -96,6 +102,24 @@ header {
   font-family: 'Abril Fatface', cursive;
 }
 
+// Text Treatments
+
+#smallCaps {
+  font-variant: small-caps;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+#linethrough {
+  text-decoration: line-through;
+}
+
 // Cursor
 #cursorChange {
   cursor: crosshair;
@@ -103,8 +127,16 @@ header {
 
 // Background Image
 #backgroundImage {
-  background-image: url(../img/LinedWritingPaper.jpg);
-  color: #333;
+  background-image: url(../img/pluto.jpg);
   // font-family: 'Rock Salt', cursive;
-  font-size: 1.2rem;
+  color: white;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+
+// Video
+video {
+  margin: 0 auto;
+  display: block;
+  max-width: 90%;
 }

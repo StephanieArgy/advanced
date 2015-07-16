@@ -2,7 +2,10 @@ body {
   background-color: #eee;
   color: #222;
   font-family: sans-serif;
+  font-size: 1.2rem;
   margin: 0; }
+  body a {
+    color: white; }
 
 header {
   background-color: black;
@@ -79,10 +82,27 @@ header {
 #fontsFifthLine {
   font-family: 'Abril Fatface', cursive; }
 
+#smallCaps {
+  font-variant: small-caps; }
+
+#italic {
+  font-style: italic; }
+
+#underline {
+  text-decoration: underline; }
+
+#linethrough {
+  text-decoration: line-through; }
+
 #cursorChange {
   cursor: crosshair; }
 
 #backgroundImage {
-  background-image: url(../img/LinedWritingPaper.jpg);
-  color: #333;
-  font-size: 1.2rem; }
+  background-image: url(../img/pluto.jpg);
+  color: white;
+  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px; }
+
+video {
+  margin: 0 auto;
+  display: block;
+  max-width: 90%; }
